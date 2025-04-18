@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background stars (Gray) -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="#B0B0B0"/>  <!-- Gray color for unselected stars -->
+        </shape>
+    </item>
+
+    <!-- Partially filled stars (Light Gold) -->
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="#FFD700"/>  <!-- Light gold for partial selection -->
+            </shape>
+        </clip>
+    </item>
+
+    <!-- Fully selected stars (Gold) -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="#FFA500"/>  <!-- Gold color for selected stars -->
+            </shape>
+        </clip>
+    </item>
+</layer-list>

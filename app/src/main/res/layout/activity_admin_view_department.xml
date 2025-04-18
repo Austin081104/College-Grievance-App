@@ -1,0 +1,326 @@
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                />
+
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:columnCount="2"
+                app:rowCount="5"
+                >
+
+                <!-- BScIT -->
+                <LinearLayout
+                    android:id="@+id/adminbscit"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_width="0dp"
+                    android:layout_height="210dp"
+                    android:layout_margin="8dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/linearlayout"
+                    android:padding="10dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/bscitvector"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="BSCIT"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+                <!-- BMS -->
+                <LinearLayout
+                    android:id="@+id/adminbms"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_width="0dp"
+                    android:layout_height="210dp"
+                    android:layout_margin="8dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/linearlayout"
+                    android:padding="10dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/bmsvector"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="BMS"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+
+                <!-- BBI -->
+                <LinearLayout
+                    android:id="@+id/adminbbi"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_width="0dp"
+                    android:layout_height="210dp"
+                    android:layout_margin="8dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/linearlayout"
+                    android:padding="20dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/bbivector"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="BBI"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+                <!-- BFM -->
+                <LinearLayout
+                    android:id="@+id/adminbfm"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_width="0dp"
+                    android:layout_height="210dp"
+                    android:layout_margin="8dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/linearlayout"
+                    android:padding="20dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/bfmvector"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="BFM"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+                <!-- BAF -->
+                <LinearLayout
+                    android:id="@+id/adminbaf"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_width="0dp"
+                    android:layout_height="210dp"
+                    android:layout_margin="8dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/linearlayout"
+                    android:padding="20dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/bafvector"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="BAF"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+                <!-- BMM -->
+                <LinearLayout
+                    android:id="@+id/adminbmm"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_width="0dp"
+                    android:layout_height="210dp"
+                    android:layout_margin="8dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/linearlayout"
+                    android:padding="20dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/bmmvector"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="BMM"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+                <!-- BCOM -->
+                <LinearLayout
+                    android:id="@+id/adminbcom"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_width="0dp"
+                    android:layout_height="210dp"
+                    android:layout_margin="8dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/linearlayout"
+                    android:padding="20dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/bcomvector"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="BCOM"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+                <!-- MCOM -->
+                <LinearLayout
+                    android:id="@+id/adminmcom"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_width="0dp"
+                    android:layout_height="210dp"
+                    android:layout_margin="8dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/linearlayout"
+                    android:padding="20dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/mcomvector"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="MCOM"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+                <!-- MSCIT -->
+                <LinearLayout
+                    android:id="@+id/adminmscit"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_width="0dp"
+                    android:layout_height="210dp"
+                    android:layout_margin="8dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/linearlayout"
+                    android:padding="20dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/mscitvector"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="MSCIT"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+            </androidx.gridlayout.widget.GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/menu_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start">
+
+        <include layout="@layout/nav_admin"/>
+
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

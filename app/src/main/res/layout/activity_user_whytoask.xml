@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+      >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="70dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="📣 Why Raise a Complaint?"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <!-- Teachers Section -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="👩‍🏫 Teachers (Faculty Issues)"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="• Unfair grading or bias\n• Improper behavior in class\n• Absence without prior notice\n• Not completing syllabus on time\n• Lack of communication/help"
+                android:textSize="18sp"                android:textColor="@color/black"
+                />
+
+            <!-- Canteen Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="🍽️ Canteen (Food and Hygiene)"
+                android:textSize="22sp"
+                android:textStyle="bold"                 android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="• Unhygienic food preparation\n• Overpriced items\n• Limited food options\n• Dirty canteen premises\n• Rude staff behavior"
+                android:textSize="18sp"                 android:textColor="@color/black"
+                />
+
+            <!-- Library Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="📚 Library (Books and Facilities)"
+                android:textSize="22sp"
+                android:textStyle="bold"                 android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="• Important books missing\n• Limited seating space\n• Poor book maintenance\n• Unfriendly library staff\n• Outdated digital resources"
+                android:textSize="18sp"                 android:textColor="@color/black"
+                />
+
+            <!-- Infrastructure Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="🏫 Infrastructure (Campus Facilities)"
+                android:textSize="22sp"
+                android:textStyle="bold"                 android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="• Broken furniture or equipment\n• Dirty washrooms\n• Poor WiFi connectivity\n• Non-functional fans/lights\n• Safety hazards (staircases, labs)"
+                android:textSize="18sp"                 android:textColor="@color/black"
+                />
+
+            <!-- Others Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="📥 Others (General Issues)"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:text="• Exam schedule confusion\n• Lack of student support services\n• Issues with online portals\n• Miscommunication from admin\n• Event mismanagement"
+                android:textSize="18sp"                 android:textColor="@color/black"
+                />
+
+            <!-- Strict Action Notice -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="⚠️ Important Notice"
+                android:textColor="#D32F2F"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:text="🚫 Please do not use offensive language or abusive words in your complaint.\n\n🚨 Strict action will be taken against students using inappropriate language."
+                android:textColor="#CE0B0B"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/menu_toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start">
+
+        <include layout="@layout/nav_drawer"/>
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

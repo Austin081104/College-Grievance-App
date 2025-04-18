@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Internet and Wake Lock Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplicationP"
+        tools:targetApi="31">
+        <activity
+            android:name=".user.user_analysis"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_edit_faq"
+            android:exported="false" />
+        <activity
+            android:name=".user.user_whytoask"
+            android:exported="false" />
+        <activity
+            android:name=".user.user_faq"
+            android:exported="false" />
+        <activity
+            android:name=".tab.user_update_profile"
+            android:exported="false" />
+        <activity
+            android:name=".HOD_DEPARTMENT.library_hod_page"
+            android:exported="false" />
+        <activity
+            android:name=".HOD_DEPARTMENT.mscit_hod_page"
+            android:exported="false" />
+        <activity
+            android:name=".HOD_DEPARTMENT.mcom_hod_page"
+            android:exported="false" />
+        <activity
+            android:name=".HOD_DEPARTMENT.bcom_hod_page"
+            android:exported="false" />
+        <activity
+            android:name=".HOD_DEPARTMENT.bmm_hod_page"
+            android:exported="false" />
+        <activity
+            android:name=".HOD_DEPARTMENT.bfm_hod_page"
+            android:exported="false" />
+        <activity
+            android:name=".HOD_DEPARTMENT.bbi_hod_page"
+            android:exported="false" />
+        <activity
+            android:name=".HOD_DEPARTMENT.baf_hod_page"
+            android:exported="false" />
+        <activity
+            android:name=".HOD_DEPARTMENT.bms_hod_page"
+            android:exported="false" />
+        <activity
+            android:name=".HOD_DEPARTMENT.bscit_hod_page"
+            android:exported="false" /> <!-- FCM Service -->
+        <activity
+            android:name=".userstatus.userstatus_complaint_bcom"
+            android:exported="false" />
+        <activity
+            android:name=".userstatus.userstatus_complaint_mscit"
+            android:exported="false" />
+        <activity
+            android:name=".userstatus.userstatus_complaint_mcom"
+            android:exported="false" />
+        <activity
+            android:name=".userstatus.userstatus_complaint_bfm"
+            android:exported="false" />
+        <activity
+            android:name=".userstatus.userstatus_complaint_bbi"
+            android:exported="false" />
+        <activity
+            android:name=".userstatus.userstatus_complaint_bmm"
+            android:exported="false" />
+        <activity
+            android:name=".userstatus.userstatus_complaint_bms"
+            android:exported="false" />
+        <activity
+            android:name=".userstatus.userstatus_complaint_baf"
+            android:exported="false" />
+        <activity
+            android:name=".userstatus.userstatus_complaint_bscit"
+            android:exported="false" />
+        <activity
+            android:name=".userstatus.userstatus_others"
+            android:exported="false" />
+        <activity
+            android:name=".userstatus.userstatus_canteen"
+            android:exported="false" />
+        <activity
+            android:name=".userstatus.userstatus_infra"
+            android:exported="false" />
+        <activity
+            android:name=".userstatus.userstatus_library"
+            android:exported="false" />
+        <activity
+            android:name=".userstatus.userstatus_department"
+            android:exported="false" />
+        <activity
+            android:name=".adminEdit.adminedit_complaint_bcom"
+            android:exported="false" />
+        <activity
+            android:name=".adminEdit.adminedit_complaint_mscit"
+            android:exported="false" />
+        <activity
+            android:name=".adminEdit.adminedit_complaint_mcom"
+            android:exported="false" />
+        <activity
+            android:name=".adminEdit.adminedit_complaint_bfm"
+            android:exported="false" />
+        <activity
+            android:name=".adminEdit.adminedit_complaint_bbi"
+            android:exported="false" />
+        <activity
+            android:name=".adminEdit.adminedit_complaint_bmm"
+            android:exported="false" />
+        <activity
+            android:name=".adminEdit.adminedit_complaint_bms"
+            android:exported="false" />
+        <activity
+            android:name=".adminEdit.adminedit_complaint_bscit"
+            android:exported="false" />
+        <activity
+            android:name=".adminEdit.adminedit_complaint_baf"
+            android:exported="false" />
+        <activity
+            android:name=".adminEdit.admin_edit_other"
+            android:exported="false" />
+        <activity
+            android:name=".adminEdit.admin_edit_canteen"
+            android:exported="false" />
+        <activity
+            android:name=".adminEdit.admin_edit_infra"
+            android:exported="false" />
+        <activity
+            android:name=".adminEdit.admin_edit_library"
+            android:exported="false" />
+        <activity
+            android:name=".adminEdit.admin_edit_department"
+            android:exported="false" />
+        <activity
+            android:name=".adminDepartment.adminview_complaint_bcom"
+            android:exported="false" />
+        <activity
+            android:name=".adminDepartment.adminview_complaint_mscit"
+            android:exported="false" />
+        <activity
+            android:name=".adminDepartment.adminview_complaint_mcom"
+            android:exported="false" />
+        <activity
+            android:name=".adminDepartment.adminview_complaint_bfm"
+            android:exported="false" />
+        <activity
+            android:name=".adminDepartment.adminview_complaint_bbi"
+            android:exported="false" />
+        <activity
+            android:name=".adminDepartment.adminview_complaint_bmm"
+            android:exported="false" />
+        <activity
+            android:name=".adminDepartment.adminview_complaint_bms"
+            android:exported="false" />
+        <activity
+            android:name=".adminDepartment.adminview_complaint_baf"
+            android:exported="false" />
+        <activity
+            android:name=".adminDepartment.adminview_complaint_bscit"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_view_other"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_view_canteen"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_view_infra"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_view_library"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_view_department"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_view_user"
+            android:exported="false" />
+        <activity
+            android:name=".userdepartment.user_complaint_bcom"
+            android:exported="false" />
+        <activity
+            android:name=".userdepartment.user_complaint_mscit"
+            android:exported="false" />
+        <activity
+            android:name=".userdepartment.user_complaint_mcom"
+            android:exported="false" />
+        <activity
+            android:name=".userdepartment.user_complaint_bfm"
+            android:exported="false" />
+        <activity
+            android:name=".userdepartment.user_complaint_bbi"
+            android:exported="false" />
+        <activity
+            android:name=".userdepartment.user_complaint_bmm"
+            android:exported="false" />
+        <activity
+            android:name=".userdepartment.user_complaint_bms"
+            android:exported="false" />
+        <activity
+            android:name=".userdepartment.user_complaint_baf"
+            android:exported="false" />
+        <activity
+            android:name=".userdepartment.user_complaint_bscit"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_edit_user"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_view_feedback"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_edit_status"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_view_complaint"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_page"
+            android:exported="false" />
+
+        <activity
+            android:name=".user.user_others"
+            android:exported="false" />
+        <activity
+            android:name=".user.user_canteen"
+            android:exported="false" />
+        <activity
+            android:name=".user.user_infra"
+            android:exported="false" />
+        <activity
+            android:name=".user.user_library"
+            android:exported="false" />
+        <activity
+            android:name=".user.user_department"
+            android:exported="false" />
+        <activity
+            android:name=".tab.tab_aboutus"
+            android:exported="false" />
+        <activity
+            android:name=".tab.tab_profile"
+            android:exported="false" />
+        <activity
+            android:name=".user.user_feedback"
+            android:exported="false" />
+        <activity
+            android:name=".user.user_status"
+            android:exported="false" />
+        <activity
+            android:name=".user.user_complaint"
+            android:exported="false" />
+        <activity
+            android:name=".user.PasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.user_registration"
+            android:exported="false" />
+        <activity
+            android:name=".user.user_page"
+            android:exported="false" />
+        <activity
+            android:name=".user.user_login"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

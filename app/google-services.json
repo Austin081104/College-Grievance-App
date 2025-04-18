@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "982174960597",
+    "project_id": "austinproject-af19a",
+    "storage_bucket": "austinproject-af19a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982174960597:android:19e7327eeb09b31c860b5c",
+        "android_client_info": {
+          "package_name": "com.example.myapplicationp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS05OoqqPW8Ij7tvFQSDfIEM_aO3jujS8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
